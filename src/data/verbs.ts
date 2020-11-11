@@ -1,4 +1,6 @@
-export default [
+import VerbInterface from '../interfaces/VerbInterface';
+
+const verbs: Array<VerbInterface> = [
   {
     name: 'Avoir',
     english: 'to have',
@@ -351,3 +353,5 @@ export default [
     }
   }
 ];
+
+export default verbs;
