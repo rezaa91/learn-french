@@ -3,6 +3,7 @@ import verbs from '../data/verbs';
 import state from '../state/displayState';
 import {linebreak} from '../utilities/linebreak';
 import {frenchPronouns, englishPronouns} from '../data/pronouns';
+import coloursEnum from '../enums/consoleColoursEnum';
 import ModuleInterface from '../interfaces/ModuleInterface';
 import MainMenuModule from './MainMenuModule';
 
@@ -35,9 +36,9 @@ export default class VerbModule implements ModuleInterface {
 
       if (response.toLowerCase().trim() === answer.toLowerCase()) {
         this.score++;
-        console.log(`\t\t\t\t\t\tCorrect. Current score: ${this.score}`);
+        console.log(coloursEnum.FG_GREEN, `\t\t\t\t\t\tCorrect. Current score: ${this.score}`);
       } else {
-        console.log(`\t\t\t\t\t\tIncorrect. The answer is: ${answer}`);
+        console.log(coloursEnum.FG_RED, `\t\t\t\t\t\tIncorrect. The answer is: ${answer}`);
       }
 
       console.log(`\t\t\t\t\t\tPar example: "${example}"`);
