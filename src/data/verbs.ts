@@ -2,6 +2,7 @@ export default [
   {
     name: 'Avoir',
     english: 'to have',
+    example: 'j\'ai un chien (I have a dog)',
     variations: {
       je: 'ai',
       tu: 'as',
@@ -17,6 +18,7 @@ export default [
   {
     name: 'Etre',
     english: 'to be',
+    example: 'je suis anglais (I am English)',
     variations: {
       je: 'suis',
       tu: 'es',
@@ -32,6 +34,7 @@ export default [
   {
     name: 'Aimer',
     english: 'to like',
+    example: 'J\'aime jouer au foot (I like to play football)',
     variations: {
       je: 'aime',
       tu: 'aimes',
@@ -47,6 +50,7 @@ export default [
   {
     name: 'Manger',
     english: 'to eat',
+    example: 'je mange beaucoup (I eat a lot)',
     variations: {
       je: 'mange',
       tu: 'manges',
@@ -62,6 +66,7 @@ export default [
   {
     name: 'Boire',
     english: 'to drink',
+    example: 'je bois de l\'eau (I drink water)',
     variations: {
       je: 'bois',
       tu: 'bois',
@@ -77,6 +82,7 @@ export default [
   {
     name: 'Penser',
     english: 'to think',
+    example: 'ils pensent trop (they think too much)',
     variations: {
       je: 'pense',
       tu: 'penses',
@@ -92,6 +98,7 @@ export default [
   {
     name: 'Parler',
     english: 'to speak',
+    example: 'est-ce que tu parles francais? (do you speak French?)',
     variations: {
       je: 'parle',
       tu: 'parles',
@@ -107,6 +114,7 @@ export default [
   {
     name: 'Aller',
     english: 'to go',
+    example: 'nous allons au parc (we are going to the park)',
     variations: {
       je: 'vais',
       tu: 'vas',
@@ -121,7 +129,8 @@ export default [
 
   {
     name: 'Faire',
-    english: 'to do',
+    english: 'to do / to have done',
+    example: 'je fais une sieste (I\'m having a nap)',
     variations: {
       je: 'fais',
       tu: 'fais',
@@ -137,6 +146,7 @@ export default [
   {
     name: 'Jouer',
     english: 'to play',
+    example: 'ils jouent au foot (they are playing football)',
     variations: {
       je: 'joue',
       tu: 'joues',
@@ -150,23 +160,9 @@ export default [
   },
 
   {
-    name: 'Finir',
-    english: 'to finish',
-    variations: {
-      je: 'finis',
-      tu: 'finis',
-      il: 'finit',
-      elle: 'finit',
-      nous: 'finissons',
-      vous: 'finissez',
-      ils: 'finissent',
-      elles: 'finissent'
-    }
-  },
-
-  {
     name: 'Pouvoir',
-    english: 'to be able to',
+    english: 'to be able to / can',
+    example: 'tu peux le faire (you can do it)',
     variations: {
       je: 'peux',
       tu: 'peux',
@@ -182,6 +178,7 @@ export default [
   {
     name: 'Vouloir',
     english: 'to want',
+    example: 'je veux des bonbons (I want candy)',
     variations: {
       je: 'veux',
       tu: 'veux',
@@ -195,8 +192,9 @@ export default [
   },
 
   {
-    name: 'Prenre',
+    name: 'Prendre',
     english: 'to take',
+    example: 'il prend la voiture (he takes the car)',
     variations: {
       je: 'prends',
       tu: 'prends',
@@ -212,6 +210,7 @@ export default [
   {
     name: 'Mettre',
     english: 'to put',
+    example: 'nous mettons les decorations (we put up the decorations)',
     variations: {
       je: 'mets',
       tu: 'mets',
@@ -227,6 +226,7 @@ export default [
   {
     name: 'Voir',
     english: 'to see',
+    example: 'je vous vois (I see you)',
     variations: {
       je: 'vois',
       tu: 'vois',
@@ -242,6 +242,7 @@ export default [
   {
     name: 'Dire',
     english: 'to say',
+    example: 'que dis-tu (what do you say?)',
     variations: {
       je: 'dis',
       tu: 'dis',
@@ -257,6 +258,7 @@ export default [
   {
     name: 'Travailler',
     english: 'to work',
+    example: 'je travaille comme programmeur (I work as a programmer)',
     variations: {
       je: 'travaille',
       tu: 'travailles',
@@ -272,6 +274,7 @@ export default [
   {
     name: 'Donner',
     english: 'to give',
+    example: 'donne moi de l\'argent (give me money)',
     variations: {
       je: 'donne',
       tu: 'donnes',
@@ -287,6 +290,7 @@ export default [
   {
     name: 'Acheter',
     english: 'to buy',
+    example: 'achete-moi de la biere (buy me some beer)',
     variations: {
       je: 'achete',
       tu: 'achetes',
@@ -302,6 +306,7 @@ export default [
   {
     name: 'Comprendre',
     english: 'to understand',
+    example: 'est-que vous comprenez? (do you understand?)',
     variations: {
       je: 'comprends',
       tu: 'comprends',
@@ -317,6 +322,7 @@ export default [
   {
     name: 'Ecouter',
     english: 'to listen',
+    example: 'ecoute moi (listen to me)',
     variations: {
       je: 'ecoute',
       tu: 'ecoutes',
@@ -332,6 +338,7 @@ export default [
   {
     name: 'Regarder',
     english: 'to watch',
+    example: 'nous regardons la television (we are watching television)',
     variations: {
       je: 'regarde',
       tu: 'regardes',

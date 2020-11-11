@@ -19,12 +19,13 @@ export default class VerbModule implements ModuleInterface {
 
     return [
       `PRONOUN: ${englishPronouns[randomPronoun]}\tVERB: ${verbs[randomVerb]?.english}\n`,
-      verbs[randomVerb]?.variations[frenchPronouns[randomPronoun]]
+      verbs[randomVerb]?.variations[frenchPronouns[randomPronoun]],
+      verbs[randomVerb]?.example
     ]
   }
 
   public display(): void {
-    const [question, answer] = this.getQAndA();
+    const [question, answer, example] = this.getQAndA();
 
     linebreak();
     rl.question(question, (response) => {
@@ -38,6 +39,8 @@ export default class VerbModule implements ModuleInterface {
       } else {
         console.log(`\t\t\t\t\t\tIncorrect. The answer is: ${answer}`);
       }
+
+      console.log(`\t\t\t\t\t\tPar example: "${example}"`);
 
       return this.display();
     })

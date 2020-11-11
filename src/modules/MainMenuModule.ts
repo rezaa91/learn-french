@@ -8,6 +8,11 @@ export default class MainMenuModule implements ModuleInterface {
   public display(): void {
     console.log('\t\t---- LEARN FRENCH ----');
     rl.question(displayMainMenu(), (response) => {
+      if (response === 'exit') {
+        console.log('\t\t\t\t\tau revoir')
+        process.exit(0);
+      }
+
       const module: ModuleInterface = create(parseInt(response));
 
       if (!module) {
